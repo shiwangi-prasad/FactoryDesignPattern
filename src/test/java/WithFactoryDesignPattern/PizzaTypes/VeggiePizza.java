@@ -1,4 +1,6 @@
-package PizzaTypes;
+package WithFactoryDesignPattern.PizzaTypes;
+
+import WithFactoryDesignPattern.PizzaTypes.Pizza;
 
 public class VeggiePizza implements Pizza {
     public void prepare()

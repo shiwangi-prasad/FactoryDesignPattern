@@ -1,4 +1,6 @@
-import PizzaTypes.Pizza;
+package WithFactoryDesignPattern;
+
+import WithFactoryDesignPattern.PizzaTypes.Pizza;
 import org.junit.Test;
 
 public class PizzaStore {
@@ -10,11 +12,10 @@ public class PizzaStore {
         this.factory = new SimplePizzaFactory();
     }
 
-    @Test
-    public void OrderPizza()
+    public void OrderPizza(String type)
     {
         Pizza pizza = null;
-        pizza = factory.createPizza("veggie");
+        pizza = factory.createPizza(type);
         pizza.prepare();
         pizza.bake();
         pizza.cut();

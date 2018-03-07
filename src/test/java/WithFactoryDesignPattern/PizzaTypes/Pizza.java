@@ -1,4 +1,4 @@
-package PizzaTypes;
+package WithFactoryDesignPattern.PizzaTypes;
 
 public interface Pizza {
 

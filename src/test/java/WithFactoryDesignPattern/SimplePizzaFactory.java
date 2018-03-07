@@ -1,7 +1,9 @@
-import PizzaTypes.CheesePizza;
-import PizzaTypes.ChickenPizza;
-import PizzaTypes.Pizza;
-import PizzaTypes.VeggiePizza;
+package WithFactoryDesignPattern;
+
+import WithFactoryDesignPattern.PizzaTypes.CheesePizza;
+import WithFactoryDesignPattern.PizzaTypes.ChickenPizza;
+import WithFactoryDesignPattern.PizzaTypes.Pizza;
+import WithFactoryDesignPattern.PizzaTypes.VeggiePizza;
 
 public class SimplePizzaFactory {
 

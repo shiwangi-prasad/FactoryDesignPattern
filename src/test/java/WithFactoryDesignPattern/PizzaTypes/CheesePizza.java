@@ -1,4 +1,4 @@
-package PizzaTypes;
+package WithFactoryDesignPattern.PizzaTypes;
 
 public class CheesePizza implements Pizza
 {

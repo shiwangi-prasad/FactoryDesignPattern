@@ -1,4 +1,4 @@
-package PizzaTypes;
+package WithFactoryDesignPattern.PizzaTypes;
 
 public class ChickenPizza implements Pizza {
     public void prepare()
